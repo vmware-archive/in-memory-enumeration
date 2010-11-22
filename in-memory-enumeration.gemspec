@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{in_memory_enumeration}
+  s.name = %q{in-memory-enumeration}
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Pivotal Labs"]
+  s.authors = ["Joe Moore", "Pivotal Labs"]
   s.date = %q{2010-11-22}
-  s.description = %q{Use in_memory_enumeration instead of hashes and statics for your enum data.}
+  s.description = %q{Use in-memory-enumeration instead of hashes and statics for your enum data.}
   s.email = %q{pivotal-opensource@googlegroups.com}
   s.extra_rdoc_files = [
     "README.markdown"
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
     "lib/in_memory_enumeration.rb",
     "lib/in_memory_enumeration/in_memory_enumeration.rb"
   ]
-  s.homepage = %q{http://github.com/pivotal/in_memory_enumeration}
+  s.homepage = %q{http://github.com/pivotal/in-memory-enumeration}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Provide a similar API to acts_as_enumerable but in memory instead of database tables.}
