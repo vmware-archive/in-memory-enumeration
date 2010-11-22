@@ -1,8 +1,8 @@
 ## In Memory Enumeration
-Provide a similar API to `acts_as_enumerable` but in memory instead of database tables.  Inspired by [enumerations_mixin](https://github.com/pivotal/enumerations_mixin), which maps Enumerations to rows in a database.  
+Provide a similar API to [`acts_as_enumerable`](https://github.com/pivotal/enumerations_mixin) but in memory instead of database tables.
 
 ## Installation
-Install `in-memory-enumeration` as a gem.
+Install `in_memory_enumeration` as a gem.
 
 ## Usage
 Create a class which extends Pivotal::InMemoryEnumeration and configure your enums like such: 
