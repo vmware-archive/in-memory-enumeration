@@ -14,11 +14,11 @@ end
 begin
   require "jeweler"
   Jeweler::Tasks.new do |gem|
-    gem.name = "in-memory-enumeration"
+    gem.name = "in_memory_enumeration"
     gem.summary = "Provide a similar API to acts_as_enumerable but in memory instead of database tables."
-    gem.description = "Use in-memory-enumeration instead of hashes and statics for your enum data."
+    gem.description = "Use in_memory_enumeration instead of hashes and statics for your enum data."
     gem.email = "pivotal-opensource@googlegroups.com"
-    gem.homepage = "http://github.com/pivotal/in-memory-enumeration"
+    gem.homepage = "http://github.com/pivotal/in_memory_enumeration"
     gem.authors = ["Pivotal Labs"]
     gem.files = Dir["{lib}/**/*"]
   end
