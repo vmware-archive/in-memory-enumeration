@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{in_memory_enumeration}
-  s.version = "0.2.0"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Pivotal Labs"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
     "lib/in_memory_enumeration.rb",
     "lib/in_memory_enumeration/in_memory_enumeration.rb"
   ]
-  s.homepage = %q{http://github.com/pivotal/in-memory-enumeration}
+  s.homepage = %q{http://github.com/pivotal/in_memory_enumeration}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Provide a similar API to acts_as_enumerable but in memory instead of database tables.}
