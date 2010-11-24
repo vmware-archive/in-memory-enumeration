@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{in_memory_enumeration}
-  s.version = "0.0.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Joe Moore", "Pivotal Labs"]
-  s.date = %q{2010-11-22}
+  s.authors = ["Pivotal Labs"]
+  s.date = %q{2010-11-24}
   s.description = %q{Use in_memory_enumeration instead of hashes and statics for your enum data.}
   s.email = %q{pivotal-opensource@googlegroups.com}
   s.extra_rdoc_files = [
