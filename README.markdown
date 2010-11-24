@@ -31,7 +31,7 @@ Below is a sample Gemfile used to create and test this gem.
 ## MIT License
 
 Copyright (c) 2010 Pivotal Labs (www.pivotallabs.com)
-Contact email: amilligan@pivotallabs.com
+Contact email: info@pivotallabs.com
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
