@@ -8,7 +8,7 @@ module Pivotal
     end
 
     attr_reader :id, :name
-    class_inheritable_accessor :enumerated_values
+    class_attribute :enumerated_values
 
     def quoted_id
       id
